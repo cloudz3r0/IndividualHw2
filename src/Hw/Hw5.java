@@ -25,8 +25,7 @@ different order. For example, "listen" and "silent" are anagrams.
 
             return true;
         }
-
-    }
+}
     class Tester extends Hw5{
         public static void main(String[] args) {
             char word[]= str1.toCharArray();
@@ -36,7 +35,7 @@ different order. For example, "listen" and "silent" are anagrams.
             }else{
                 System.out.println("Not anagram");
             }
-        }
+        }//refer to review10 Q5 class for simpler version of this.
     }
 
 
